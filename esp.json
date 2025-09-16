@@ -1,0 +1,17 @@
+{
+  "name": "PS4MACEDO SUPERLIGHT",
+  "version": "PSFREE+GOLDHEN V2.4b18.6",
+  "home_assistant_domain": "slim_player",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S2",
+      "parts": [
+        {
+          "path": "ps4esp32s2sl.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ],
+  "baud": 921600
+}
